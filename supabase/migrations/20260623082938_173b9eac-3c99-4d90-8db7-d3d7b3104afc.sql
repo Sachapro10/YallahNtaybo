@@ -1,0 +1,1 @@
+ALTER TABLE public.recipe_books ADD CONSTRAINT recipe_books_user_id_profiles_fkey FOREIGN KEY (user_id) REFERENCES public.profiles(id) ON DELETE CASCADE;
